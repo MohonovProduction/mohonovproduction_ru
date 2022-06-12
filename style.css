@@ -1,0 +1,16 @@
+*,
+:before,
+:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+:root {
+    box-sizing: content-box;
+    --font-regular: 'Roboto Flex', sans-serif;
+    --font-monoscape: 'Roboto Mono', monospace;
+    font-family: var(--font-monoscape);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&family=Roboto+Mono&display=swap');
